@@ -1,0 +1,89 @@
+*{
+    background-color: #B7B7A4;
+    cursor: pointer;
+}
+
+.App{
+    max-width: 600px;
+    height:625px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-shadow:  1px 3px 5px rgba(0,0,0,0.6);
+    margin: 0 auto;
+    justify-content: center;
+    padding: 5px;
+    background: #fff;
+
+}
+
+h1{
+    color: #264653;
+    border-bottom: 1px solid #2A9D8F;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.content{
+   background-color: #fff; 
+   width: 570px;
+   margin: 50px 0px;
+}
+
+
+.form{
+   display: inline;
+   max-width: 550px;
+   background-color: #fff;
+
+}
+
+.form input{
+   padding: 10px;
+   margin: 5px;
+   width: 450px;
+   border-radius:5px;
+   border: 2px solid #F4A261;
+   background-color: rgba(233,196,106,0.5);
+   box-shadow:  1px 3px 5px rgba(0,0,0,0.3);
+}
+
+.form .add{
+
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius:25%;
+    text-decoration: bold;
+    font-size: 30px;
+    border: 3px solid #E76F51;
+    background-color:rgba(231,111,81,0.9);
+    box-shadow:  1px 3px 5px rgba(0,0,0,0.3);
+}
+
+.content ul{
+     background-color: #fff;
+     margin: 10px;
+}
+
+.content ul li{
+  max-width: 500px;
+  background-color: #fff;
+  border-bottom: 1px dashed grey;
+  padding: 7px;
+  margin: 2px;
+  text-align: left;
+ 
+  
+}
+
+.content ul li button{
+    float: right;
+    background-color: #fff;
+    border-style: none;
+}
+
+.icond{
+    color: black;
+    background: transparent;
+    
+
+}
