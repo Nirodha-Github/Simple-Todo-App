@@ -1,32 +1,33 @@
 *{
-    background-color: #B7B7A4;
+    background-color: #edcee4;
     cursor: pointer;
+   
 }
 
 .App{
     max-width: 600px;
     height:625px;
-    text-align: center;
     border: 1px solid #fff;
     box-shadow:  1px 3px 5px rgba(0,0,0,0.6);
     margin: 0 auto;
-    justify-content: center;
     padding: 5px;
     background: #fff;
-
+    
 }
 
 h1{
     color: #264653;
     border-bottom: 1px solid #2A9D8F;
     background-color: #fff;
-    margin: 20px;
+    margin: 20px; 
+    text-align: center;
 }
 
 .content{
    background-color: #fff; 
    max-width: 570px;
    margin: 50px 0px;
+  
 }
 
 
@@ -34,7 +35,8 @@ h1{
    display: inline;
    max-width: 550px;
    background-color: #fff;
-
+   justify-content: center;
+   margin: 0 25%;
 }
 
 .form input{
@@ -65,17 +67,16 @@ h1{
 }
 
 .content ul li{
-  max-width: 500px;
+  max-width: 530px;
   background-color: #fff;
   border-bottom: 1px dashed grey;
   padding: 7px;
   margin: 2px;
-  text-align: left;
- 
+  list-style: none;
   
 }
 
-.content ul li button{
+.content ul li div button{
     float: right;
     background-color: #fff;
     border-style: none;
@@ -84,6 +85,40 @@ h1{
 .icond{
     color: black;
     background: transparent;
+}
+
+.content ul li div input{
+    float: left;
     
+}
+
+.content ul li div input:checked{
+    width: 15px;
+    height: 15px;   
+    
+}
+
+.content ul li div {
+    display: inline;
+   max-width: 550px;
+   background-color: #fff;
+  
+}
+
+.content ul li div p{
+    display: inline;
+    max-width: 550px;
+    background-color: #fff;
+    text-align: left;
+    color : blue;
 
 }
+ 
+
+input[type=checkbox]:checked + p {
+
+  color: grey;
+  font-style: italic;
+  text-decoration-line: black;
+
+} 
